@@ -22,8 +22,8 @@ archives:
 dockers:
   - image_templates:
     - "egabor/docker-etchosts:{{ .Tag }}"
-    - "egabor/docker-etchosts:v{{ .Major }}"
-    - "egabor/docker-etchosts:v{{ .Major }}.{{ .Minor }}"
+    - "egabor/docker-etchosts:{{ .Major }}"
+    - "egabor/docker-etchosts:{{ .Major }}.{{ .Minor }}"
     - "egabor/docker-etchosts:latest"
 checksum:
   name_template: 'checksums.txt'
